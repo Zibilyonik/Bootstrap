@@ -1,9 +1,17 @@
 body{
   background-color:#f4f5f6;
 }
-a{
+p,a,h1,h2,h3,h4,h5,h6{
+  font-family: "Rubik";
+}
+h5,a{
   color:black;
   font-weight: bold;
+  margin-bottom: 0!important;
+}
+.header-links a{
+  padding-bottom: 0!important;
+  padding-top: 5px!important;
 }
 .main-container{
   background-color: white;
@@ -21,7 +29,6 @@ a{
   color:white;
 }
 .header-bot {
-  height:40px;
   background: white;
 }
 #SignIn{
