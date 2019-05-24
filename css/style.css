@@ -1,0 +1,42 @@
+body{
+  background-color:#f4f5f6;
+}
+a{
+  color:black;
+  font-weight: bold;
+}
+.main-container{
+  background-color: white;
+  text-align: left;
+}
+.header-links-list{
+  text-align: left;
+}
+.header-links{
+  color:black;
+}
+.header-top{
+  background-color: #f72210;
+  height:95px;
+  color:white;
+}
+.header-bot {
+  height:40px;
+  background: white;
+}
+#SignIn{
+  background-color: #f72210;
+}
+#Subscribe{
+  background-color: white;
+  color:#f72210;
+}
+.featured-stories>img{
+  width: 95%;
+}
+.opinion-img{
+  width:25%;
+}
+.opinion p{
+  margin-bottom:0;
+}
