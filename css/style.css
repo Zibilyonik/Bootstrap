@@ -4,22 +4,28 @@ body{
 p,a,h1,h2,h3,h4,h5,h6{
   font-family: "Rubik";
 }
-h5,a{
+h4,h5,a{
   color:black;
-  font-weight: bold;
-  font-size: 0.9rem;
+  font-weight: bold!important;
+  font-size: 0.8rem;
   margin-bottom: 0!important;
+}
+p{
+  font-size: 0.8rem;
 }
 .header-links a{
   padding-bottom: 0!important;
   padding-top: 5px!important;
+}
+.nowrap{
+  white-space: nowrap;
 }
 .sticky-container{
   position: sticky;
   top:0;
 }
 .latest-news+li{
-  border-top: 1px solid !important;
+  border-top: 1px solid lightgray!important;
 }
 .main-container{
   background-color: white;
