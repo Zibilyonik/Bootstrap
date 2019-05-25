@@ -7,11 +7,19 @@ p,a,h1,h2,h3,h4,h5,h6{
 h5,a{
   color:black;
   font-weight: bold;
+  font-size: 0.9rem;
   margin-bottom: 0!important;
 }
 .header-links a{
   padding-bottom: 0!important;
   padding-top: 5px!important;
+}
+.sticky-container{
+  position: sticky;
+  top:0;
+}
+.latest-news+li{
+  border-top: 1px solid !important;
 }
 .main-container{
   background-color: white;
@@ -46,4 +54,8 @@ h5,a{
 }
 .opinion p{
   margin-bottom:0;
+}
+.latest-news-img{
+  width:40%;
+  float: left;
 }

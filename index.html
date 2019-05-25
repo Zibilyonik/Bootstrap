@@ -11,7 +11,7 @@
   </head>
   <body class="mx-5">
     <header class="header align-text-bottom mx-5">
-      <div class="header-top flex-xs navbar">
+      <div class="header-top flex-xs navbar justify-content-between">
         <p class="mt-4 align-text-bottom">Thu, May 23, 2019</p>
         <a href=""><h1 class="text-light display-1 mt-n3">Newsweek</h1></a>
         <div class="btn-group">
@@ -57,7 +57,7 @@
     <div class="main-container pt-3 mt-1 mx-5">
       <div>
         <div class="row">
-          <div class="featured col-4 float-left">
+          <div class="featured col-4 float-left order-2">
             <h4 class="text-secondary">FEATURED STORIES</h4>
             <div class="featured-stories my-2 card border-0">
               <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/05/23/us-soldiers-deploy-iran-10000-donald-trump-middle-east.jpg" class="w-100" alt="">
@@ -92,15 +92,17 @@
               </div>
             </div>
           </div>
-          <div class="col-5">
-            <div class="top-story">
-              <img src="" alt="">
+          <div class="col-5 order-xl-2 order-1 ml-n3">
+            <h4 class="text-secondary">TOP STORY</h4>
+            <div class="top-story car border-0">
+              <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md/public/2019/05/24/republican-chip-roy-blocks-billions-natural-disaster-aid.jpg" class="w-100" alt="">
               <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ipsam.</a>
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi laborum unde accusantium, possimus voluptatibus laboriosam obcaecati ullam, voluptate molestias optio.</p>
-              <div>
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, qui!</a>
+              <div class="border border-left-0 border-right-0 mb-3">
+                <a href="#" class="my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, qui!</a>
               </div>
             </div>
+            <h4 class="text-secondary border border-top-0 border-left-0 border-right-0">MORE STORIES</h4>
             <div class="more-stories">
               <img src="" alt="">
               <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, beatae.</a>
@@ -142,7 +144,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad explicabo quaerat, fugit magnam eaque, nihil cum distinctio facilis laboriosam perferendis.</p>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-3 order-3 ml-n2">
+            <h4 class="text-secondary">OPINION</h4>
             <div class="opinion border border-top-0 border-left-0 border-right-0 border-secondary my-2">
               <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/nw-columnists-daniel-schatz.png" alt="" class="rounded-circle img-fluid float-left opinion-img p-1">
               <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, non.</a>
@@ -179,39 +182,58 @@
               <p>BY DANIEL SCHATZ</p>
               <a href="#"></a>
           </div>
-          <div>
-            <div class="latest-news">
-              <img src="" alt="">
-              <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, et.</a>
-            </div>
-            <div class="latest-news">
-              <img src="" alt="">
-              <a href="#">Omnis, fugit excepturi adipisci laboriosam asperiores rem soluta architecto, ipsam.</a>
-            </div>
-            <div class="latest-news">
-              <img src="" alt="">
-              <a href="#">Blanditiis dicta, nam! Vitae obcaecati ex odio iusto, pariatur. Ab?</a>
-            </div>
-            <div class="latest-news">
-              <img src="" alt="">
-              <a href="#">Praesentium illum commodi voluptatibus in quam consectetur repellendus excepturi libero.</a>
-            </div>
-            <div class="latest-news">
-              <img src="" alt="">
-              <a href="#">Libero non officiis nam facilis. Pariatur illum nihil, esse repellat.</a>
-            </div>
-            <div class="latest-news">
-              <img src="" alt="">
-              <a href="#">Nemo neque est expedita vitae maxime obcaecati accusamus, veritatis earum?</a>
-            </div>
-            <div class="latest-news">
-              <img src="" alt="">
-              <a href="#">Vel aliquam quidem at vitae quisquam corrupti, asperiores, veritatis reprehenderit.</a>
-            </div>
-            <div class="latest-news">
-              <img src="" alt="">
-              <a href="#">Tempore voluptatum corporis culpa at assumenda. Commodi natus tempore nesciunt.</a>
-            </div>
+          <h4 class="text-secondary">LATEST NEWS</h4>
+          <div class="sticky-container">
+            <ul class="list-group">
+              <li class="latest-news list-group-item border-0">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/05/22/mike-pence-graduation-west-point-watch-live-stream.jpg" class="latest-news-img ml-n3 mr-2" alt="">
+                <div class="mt-n2">
+                <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, et.</a>
+              </div>
+              </li>
+              <li class="latest-news list-group-item border-0">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/05/22/mike-pence-graduation-west-point-watch-live-stream.jpg" class="latest-news-img ml-n3 mr-2" alt="">
+                <div class="mt-n2">
+                <a href="#">Omnis, fugit excepturi adipisci laboriosam asperiores rem soluta architecto, ipsam.</a>
+              </div>
+              </li>
+              <li class="latest-news list-group-item border-0">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/05/22/mike-pence-graduation-west-point-watch-live-stream.jpg" class="latest-news-img ml-n3 mr-2" alt="">
+                <div class="mt-n2">
+                <a href="#">Blanditiis dicta, nam! Vitae obcaecati ex odio iusto, pariatur. Ab?</a>
+              </div>
+              </li>
+              <li class="latest-news list-group-item border-0">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/05/22/mike-pence-graduation-west-point-watch-live-stream.jpg" class="latest-news-img ml-n3 mr-2" alt="">
+                <div class="mt-n2">
+                <a href="#">Praesentium illum commodi voluptatibus in quam consectetur repellendus excepturi libero.</a>
+              </div>
+              </li>
+              <li class="latest-news list-group-item border-0">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/05/22/mike-pence-graduation-west-point-watch-live-stream.jpg" class="latest-news-img ml-n3 mr-2" alt="">
+                <div class="mt-n2">
+                <a href="#">Libero non officiis nam facilis. Pariatur illum nihil, esse repellat.</a>
+              </div>
+              </li>
+              <li class="latest-news list-group-item border-0">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/05/22/mike-pence-graduation-west-point-watch-live-stream.jpg" class="latest-news-img ml-n3 mr-2" alt="">
+                <div class="mt-n2">
+                <a href="#">Nemo neque est expedita vitae maxime obcaecati accusamus, veritatis earum?</a>
+              </div>
+              </li>
+              <li class="latest-news list-group-item border-0">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/05/22/mike-pence-graduation-west-point-watch-live-stream.jpg" class="latest-news-img ml-n3 mr-2" alt="">
+                <div class="mt-n2">
+                <a href="#">Vel aliquam quidem at vitae quisquam corrupti, asperiores, veritatis reprehenderit.</a>
+              </div>
+              </li>
+              <li class="latest-news list-group-item border-0">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/05/22/mike-pence-graduation-west-point-watch-live-stream.jpg" class="latest-news-img ml-n3 mr-2" alt="">
+                <div class="mt-n2">
+                <a href="#">Tempore voluptatum corporis culpa at assumenda. Commodi natus tempore nesciunt.</a>
+              </div>
+              </li>
+            </ul>
           </div>
         </div>
 
