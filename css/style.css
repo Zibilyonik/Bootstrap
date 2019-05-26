@@ -7,8 +7,11 @@ p,a,h1,h2,h3,h4,h5,h6{
 h4,h5,a{
   color:black;
   font-weight: bold!important;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   margin-bottom: 0!important;
+}
+body a{
+  font-size: 0.9rem;
 }
 p{
   font-size: 0.8rem;
@@ -64,4 +67,20 @@ p{
 .latest-news-img{
   width:40%;
   float: left;
+}
+.link-change:hover{
+  color:#f72210;
+  text-decoration: none!important;
+}
+.link-underline:hover{
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+.editor-container, .slideshow-container{
+  margin: 2vw 0;
+}
+.editor-img{
+  width:100%;
+  height:90%;
+  object-fit: contain;
 }
