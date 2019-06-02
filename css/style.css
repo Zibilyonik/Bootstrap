@@ -70,7 +70,7 @@ p{
   float: left;
 }
 .more-stories, .more-stories-first{
-  padding-left: 0px!important;
+  padding-left: 0!important;
 }
 a .groups-title{
   color:#f72210;
