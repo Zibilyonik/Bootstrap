@@ -92,6 +92,9 @@ a .groups-title{
 .group-side-img{
   width:35%;
 }
+.magazine-item-img{
+  object-fit: cover;
+}
 ul .footer-links{
   font-weight: 400!important;
   padding:0 10px!important;
