@@ -1,0 +1,116 @@
+body{
+  background-color:#f4f5f6;
+}
+p,a,h1,h2,h3,h4,h5,h6{
+  font-family: "Rubik";
+}
+h4,h5,a{
+  color:black;
+  font-size: 1.2rem;
+  margin-bottom: 0!important;
+}
+body a{
+  font-size: 0.9rem;
+}
+p{
+  font-size: 0.8rem;
+}.newsweek-main:hover{
+  text-decoration: none;
+}
+.header-links a{
+  padding-bottom: 0!important;
+  padding-top: 5px!important;
+}
+.nowrap{
+  white-space: nowrap;
+}
+.sticky-container{
+  position: sticky;
+  top:0;
+}
+.latest-news+li{
+  border-top: 1px solid lightgray!important;
+}
+.main-container{
+  background-color: white;
+  text-align: left;
+}
+.header-links-list{
+  text-align: left;
+}
+.header-links{
+  color:black;
+}
+.header-top{
+  background-color: #f72210;
+  height:95px;
+  color:white;
+}
+.header-bot {
+  background: white;
+}
+#SignIn{
+  background-color: #f72210;
+}
+#Subscribe{
+  background-color: white;
+  color:#f72210;
+}
+.featured-stories>img{
+  width: 95%;
+}
+.opinion-img{
+  width:25%;
+}
+.opinion p{
+  margin-bottom:0;
+}
+.latest-news-img{
+  width:40%;
+  float: left;
+}
+.more-stories, .more-stories-first{
+  padding-left: 0!important;
+}
+a .groups-title{
+  color:#f72210;
+}
+.link-change:hover{
+  color:#f72210;
+  text-decoration: none!important;
+}
+.link-underline:hover{
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+.editor-container, .slideshow-container{
+  margin: 2vw 0;
+}
+.more-stories{
+  border-top: 1px solid lightgray!important;
+}
+.group-side-img{
+  width:35%;
+}
+.magazine-item-img{
+  object-fit: cover;
+}
+ul .footer-links{
+  font-weight: 400!important;
+  padding:0 10px!important;
+}
+@media only screen and (max-width:1200px){
+  .opinion-img{
+    width:10%;
+  }
+  .latest-news-img{
+    width:15%;
+  }
+}
+@media only screen and (min-width:1200px){
+  .editor-img{
+    width:100%;
+    height:90%;
+    object-fit: contain;
+  }
+}
