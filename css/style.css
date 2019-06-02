@@ -6,7 +6,6 @@ p,a,h1,h2,h3,h4,h5,h6{
 }
 h4,h5,a{
   color:black;
-  font-weight: bold!important;
   font-size: 1.2rem;
   margin-bottom: 0!important;
 }
@@ -73,6 +72,9 @@ p{
 .more-stories, .more-stories-first{
   padding-left: 0px!important;
 }
+a .groups-title{
+  color:#f72210;
+}
 .link-change:hover{
   color:#f72210;
   text-decoration: none!important;
@@ -84,11 +86,28 @@ p{
 .editor-container, .slideshow-container{
   margin: 2vw 0;
 }
-.editor-img{
-  width:100%;
-  height:90%;
-  object-fit: contain;
-}
 .more-stories{
   border-top: 1px solid lightgray!important;
+}
+.group-side-img{
+  width:35%;
+}
+ul .footer-links{
+  font-weight: 400!important;
+  padding:0 10px!important;
+}
+@media only screen and (max-width:1200px){
+  .opinion-img{
+    width:10%;
+  }
+  .latest-news-img{
+    width:15%;
+  }
+}
+@media only screen and (min-width:1200px){
+  .editor-img{
+    width:100%;
+    height:90%;
+    object-fit: contain;
+  }
 }
